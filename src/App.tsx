@@ -29,7 +29,6 @@ export default function App() {
     pause: false,
     text: "Pause"
   })
-
   const telegramData = (window as any).Telegram.WebApp
   const chat_Id = telegramData.initDataUnsafe.user.id; 
   if (chat_Id== null)
