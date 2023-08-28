@@ -31,10 +31,6 @@ export default function App() {
   })
   const telegramData = (window as any).Telegram.WebApp
   const chat_Id = telegramData.initDataUnsafe.user.id; 
-  if (chat_Id== null)
-  {
-    return<div>Пользователь не найден, выполните вход из телеграмма</div>
-  }
 
   const userData = {
     Chat_Id: chat_Id,  // сделать аунтификацию в телеграмм
