@@ -1,7 +1,7 @@
 {
+  "homepage": "http://lightyear088.github.io/tracker-work",
   "name": "trakerr",
   "version": "0.1.0",
-  "homepage": "http://lightyear088.github.io/tracker-work",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
